@@ -18,8 +18,8 @@ var header = {
 var url = "https://mini1.91quzou.com/activity/inviteVideo/receive.do";
 var param = "ic=KXR64";
 
-function testPOST() {
-    axios({
+async function testPOST() {
+    await axios({
         method: "POST",
         headers: header,
         url: url,
